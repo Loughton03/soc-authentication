@@ -1,8 +1,10 @@
 <p align="center">
-<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
+
+ ![image](https://github.com/Loughton03/soc-authentication/assets/78968473/7d14a45a-9cf7-4673-95ab-af2c76f3ae04)
+
 </p>
 
-<h1>osTicket - Prerequisites and Installation</h1>
+<h1>Precursor to Security Operations (Failed Authentication and Log Observation)</h1>
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
 <h2>What is osTicket?</h2>
