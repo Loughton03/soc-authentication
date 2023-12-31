@@ -1,3 +1,6 @@
+<p align="center">
+<img src="https://i.imgur.com/8I0YcgP.png" alt="Azure logo"/>
+</p>
 
 <h1>Precursor to Security Operations (Failed Authentication and Log Observation)</h1>
 We will create a virtual computer in the cloud, and this computer will be the one we pretend to attack. Our main goal for this lab is to carefully look at the records or logs and determine if something is a false negative, false positive, true positive, or true negative.<br />
