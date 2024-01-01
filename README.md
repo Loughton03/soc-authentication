@@ -1,4 +1,4 @@
-<p align="center">
+![image](https://github.com/Loughton03/soc-authentication/assets/78968473/fa2aef64-01b0-4007-87b0-36bebb4c568e)<p align="center">
 <img src="https://i.imgur.com/8I0YcgP.png" alt="Azure logo"/>
 </p>
 
@@ -60,45 +60,61 @@ We will create a virtual computer in the cloud, and this computer will be the on
 </p>
 <br />
 
-
 <p>
-6. 
-</p>
-
-<p>
-<img src="" height="80%" width="80%" alt="Public IP Address"/>
+<img src="https://i.imgur.com/VvJPiCD.png" height="80%" width="80%" alt="Public IP Address"/>
 </p>
 <br />
 
 
 <p>
-6. Log out of the attack VM and return to our computer.
+6. Now we will open remote Desktop Protocol (RDP) from inside the attack VM and input the linux vm IP address. We will now initiate five failed Remote Desktop Protocol (RDP) login attempts from the attacker VM to the linux VM.
 </p>
 
 <p>
-<img src="" height="80%" width="80%" alt="Public IP Address"/>
+<img src="https://i.imgur.com/iVjszTW.png" height="80%" width="80%" alt="Public IP Address"/>
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/kjdXTEx.png" height="80%" width="80%" alt="Public IP Address"/>
 </p>
 <br />
 
 
 <p>
-7. Reconnect to the Windows VM via RDP from our computer.
+7. Reconnect to the Windows VM via RDP from our computer, log into event viewer, Analyze successful and unsuccessful login events, paying attention to EventIDs, messages, source IP addresses, and other relevant information in the Security log for RDP and the Application log for SQL.
 </p>
 
 <p>
-<img src="" height="80%" width="80%" alt="Public IP Address"/>
+<img src="https://i.imgur.com/sK0GkJa.png" height="80%" width="80%" alt="Public IP Address"/>
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/2Iv1Go1.png" height="80%" width="80%" alt="Public IP Address"/>
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/5YTu3qy.png" height="80%" width="80%" alt="Public IP Address"/>
 </p>
 <br />
 
 
-<p>
-8. Analyze successful and unsuccessful login events, paying attention to EventIDs, messages, source IP addresses, and other relevant information in the Security log for RDP and the Application log for SQL.
+8. From our computer we will login to the linux VM and take a look at the failed logs.
 </p>
 
 <p>
-<img src="" height="80%" width="80%" alt="Public IP Address"/>
+<img src="https://i.imgur.com/M3zTwaV.png" height="80%" width="80%" alt="Public IP Address"/>
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/tjl6lhh.png" height="80%" width="80%" alt="Public IP Address"/>
+</p>
+<br />
+
+
 
 
 
