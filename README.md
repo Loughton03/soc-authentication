@@ -41,7 +41,7 @@ We will create a virtual computer in the cloud, and this computer will be the on
 <br />
 
  
-3. We will now initiate five failed Remote Desktop Protocol (RDP) login attempts from the attacker VM to the Windows VM.
+4. We will now initiate five failed Remote Desktop Protocol (RDP) login attempts from the attacker VM to the Windows VM.
 </p>
 <br />
 
